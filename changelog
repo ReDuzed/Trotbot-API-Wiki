@@ -1,8 +1,9 @@
-# version 1.3.46.26 -> 1.3.27.54
+# version 1.3.46.26 -> 1.3.55.27
 ## Added
 -> Unload plugin info text
 -> Versioning info on program startup
 -> Update check and download upon request
+-> Plugin pre-load menu
 ## Changed
 -> Unloading plugins when encountering an error in the loop and then 
 	reconnecting
@@ -10,4 +11,3 @@
 -> ChatRoom.CommandChar variable is now properly changeable
 ## Fixed
 -> Command character is now properly configured for each command
--> Versioning
