@@ -1,0 +1,13 @@
+# version 1.3.46.26 -> 1.3.27.54
+## Added
+-> Unload plugin info text
+-> Versioning info on program startup
+-> Update check and download upon request
+## Changed
+-> Unloading plugins when encountering an error in the loop and then 
+	reconnecting
+-> Duplicate command caution message
+-> ChatRoom.CommandChar variable is now properly changeable
+## Fixed
+-> Command character is now properly configured for each command
+-> Versioning
