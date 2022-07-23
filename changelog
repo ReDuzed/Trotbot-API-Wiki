@@ -1,18 +1,12 @@
-# version 1.3.54.27 -> 1.3.56.28
-## Added
--> Plugin pre-load menu
+# version 1.3.56.28 -> 1.3.60.30
 ## Changed
--> Update file method
-
-# version 1.3.46.26 -> 1.3.55.27
-## Added
--> Unload plugin info text
--> Versioning info on program startup
--> Update check and download upon request
-## Changed
--> Unloading plugins when encountering an error in the loop and then 
-	reconnecting
--> Duplicate command caution message
--> ChatRoom.CommandChar variable is now properly changeable
+-> "Up to date" message only shows conditionally after entering "y"
 ## Fixed
--> Command character is now properly configured for each command
+-> Reader output null or empty data mitigation
+-> Reload command properly reinitializes plugins
+## Removed
+-> Unecessary database code
+## Notes
+-> There is a random connection error upon startup that is difficult to 
+	troubleshoot but it might be fixed in this update (as in after the 
+	changes it has not happened again)
