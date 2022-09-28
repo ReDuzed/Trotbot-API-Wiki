@@ -1,4 +1,9 @@
-# version 1.3.60.30 -> 1.3.62.31
+# version 1.3.62.31 -> 1.3.64.32
 ## Changed
--> A plugin throwing an exception will now timeout instead of wait for input
--> Program should properly shut down the current process when updating
+-> If program disconnects and cannot reconnect due to instanced variables, the 
+	program will shut down, and granted there is a reconnect script, will
+	then restart.
+## Added
+-> Two startup arguments, --skip-update for skipping the update-check step, and 
+	--automated for skipping the manual plugin load step. With these two, 
+	unattended running is possible in the case of an unexpected crash.
