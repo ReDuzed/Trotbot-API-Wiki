@@ -1,8 +1,10 @@
-# version 1.3.62.31 -> 1.3.64.32
+# version 1.3.62.31 -> 1.3.65.32
 ## Changed
 -> If program disconnects and cannot reconnect due to instanced variables, the 
 	program will shut down, and granted there is a reconnect script, will
 	then restart.
+-> "--help" command is now disabled unless command name specified in startup 
+	arguments.
 ## Added
 -> Two startup arguments, --skip-update for skipping the update-check step, and 
 	--automated for skipping the manual plugin load step. With these two, 
