@@ -9,3 +9,5 @@
 -> Clarified plugin information loading and unloading on start
 -> Minor Linux pathing variables
 -> Framework switched to .NET 6.0
+## Updated
+-> To TLS13
