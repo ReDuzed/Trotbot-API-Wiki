@@ -1,4 +1,4 @@
-# version 1.3.65.32 -> 1.3.70.33
+# version 1.3.65.32 -> 1.3.72.35
 ## Added
 -> Three methods for API handling of commands from chat messages
 ## Modified
@@ -11,3 +11,7 @@
 -> Framework switched to .NET 6.0
 ## Updated
 -> To TLS13
+## Fixed
+-> Some update process bugs on Linux and Windows
+	Restart args
+	General file allocating
